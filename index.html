@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Rainforest</title>
+    <style>
+        body{
+            background-color: lightgreen;
+            text-align: center;
+        }
+        .main{
+            width:90%;
+            background-color: green;
+            margin:4%;
+            margin-top: 1%;
+            text-align: center;
+        }
+        h1{
+            color: blue;
+            font-size: 4em;
+        }
+        h2{
+            font-size: 2em;
+            color: rgb(82, 82, 234);
+        }
+        p, .p, label, h3{
+            color:rgb(124, 124, 175);
+            font-size: 1.2em;
+            width: 80%;
+            text-align: center;
+        }
+        h3{
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        p{
+            margin-left: 10%;
+        }
+        img{            
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        button{
+            background-color: orange;
+            color: rgb(113, 84, 134);
+        }
+        .main div{
+            background-color: rgb(24, 149, 24);
+            margin-top: 10px;
+            padding:15px;
+        }
+        .main div button{
+            margin:5px;
+        }
+        input{
+            accent-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>The Amazon Rainforest</h1>
+    <div class="main" id="1">
+        <h2>Introduction</h2>
+        <p>
+            The Amazon Rainforest in South America (mainly Brazil) contains ~10% of every animal and plant species on Earth, with a few spdcies 
+            being unique to the Amazon. Spanning 6.7 million km<sup>2</sup>, it is the world's largest rainforest and contains one of the largest 
+            rivers, the Amazon River. 
+        </p>
+        <img src="img1.jpg">
+        <div>
+            <button onclick="s(1)">Next -→</button>
+        </div>
+    </div>
+    <div class="main" id="2">
+        <h2>Characteristics</h2>
+        <p>
+            The Amazon Rainforest is a tropical forest and experiencs little-to no seasonal variation. Temperatures in the Amazon range between 
+            26 to 30 degrees and being a rainforest, the Amazon receives 2,000 to 10,000 mm of rain per year.
+        </p>
+        <img src="img2.png">
+        <div>
+            <button onclick="s(-1)">←- Prev</button><button onclick="s(1)">Next -→</button>
+        </div>
+    </div>
+    <div class="main" id="3">
+        <h2>Flora</h2>
+        <p>
+            The Amazon Rainforest contains a staggering diversity of plants, containg more than 40,000 species. The Giant Water Lily, 
+            <em>Victoria Amazonica</em>, can grow upto an impressive 3 metres in diameter and can be found in the shallow areas of the Amazon River.
+            Their large leaves increase the area for photosynthesis with underneath to defend against heribvores. Rubber trees, 
+            <em>Hevea brasiliensis</em>, originated in the Amazon before being planted in South-east Asia during the Rubber Boom. 
+            Rubber trees' leaves have drip tips to not retain too much water, which can lead to mold growth. The Heliconia flower, 
+            <em>Heliconia latispatha</em>, has evolved a symbotiotic relationship with hummingbirds, with Heliconia's nectar being their primary 
+            food source and the hummingbirds' being the Heliconia's main pollinator.
+        </p>
+        <img src="img3.jpg"><img src="img4.jpg"><img src="img5.jpg">
+        <div>
+            <button onclick="s(-1)">←- Prev</button><button onclick="s(1)">Next -→</button>
+        </div>
+    </div>
+    <div class="main" id="4">
+        <h2>Flora... Continued</h2>
+        <p>
+            More plant species include the Coffee Plant, <em>Coffea arabica</em>. The original purpose for caffeine was to toxify insects that consumed
+            it. The Monkey Brush Vine, <em>Combretum rotundifolium</em>, is a parasitic vine that grows red flowers and is the resting place of iguanas. 
+            The Kapok Tree is one of the largest trees in the Amazon and is the home of many animal species. Its light-weight wood is used by the 
+            locals to make canoes.
+        </p>
+        <img src="img8.png"><img src="img6.png"><img src="img7.png">
+        <div>
+            <button onclick="s(-1)">←- Prev</button><button onclick="s(1)">Next -→</button>
+        </div>
+    </div>
+    <div class="main" id="5">
+        <h2>Fauna</h2>
+        <p>
+            One of the thousands of animal species is the jaguar, <em>Panthera onca</em>. They have camoflaged fur and are excellent swimmers. 
+            Macaws, in the genus of <em>Ara</em>, are well adapted to fly through the tree and are capable of using their wings as brkes when landing.
+            An amphibian that inhabits the rainforest are Poison Dart Frogs, a whole group of species under the family of <em>Dendrobatidae</em>. 
+            Their toxins are enough to kill or atleast paralyse a potential predator with their bright colouration warning them of this. They also 
+            have an excellent sense of vision to help tham catch their own prey. The insect species include the Leafcutter ant. Like all ant species, 
+            there is one queen per colony that lays eggs, which hatch in larvae before becoming pupae and eventually enclosing into adult worker ants.
+            What is unique about this species is that they use leaves to farm fungus which they eat. They invented agriculture millions years before 
+            humans! 
+        </p>
+        <img src="img9.png"><img src="img10.jpg"><img src="img11.png"><img src="img12.png">
+        <div>
+            <button onclick="s(-1)">←- Prev</button><button onclick="s(1)">Next -→</button>
+        </div>
+    </div>
+    <div class="main" id="6">
+        <h2>Fauna... Continued</h2>
+        <p>
+            A cetacean that inhabits the Amazon River is Pink River Dolphin a.k.a Amazon River Dolphin, <em>Inia geoffrensis</em>. Their unfused neck
+            vertabrae allows them to turn their heads 180 degrees. Using their echolocation, fins designed for maneuverability and stiff, sensory 
+            hairs in their beak, they can locate prey in murky water. The Green Anaconda, <em>Eunectes murinus</em>, is the world's heaviest and 
+            second-longest living snake. Adult females can reach up to nine metres in length and a quarter of a tonne in weight. Like all boas, 
+            they are constrictors that lack the ability to produce venom. 
+        </p>
+        <img src="img13.png"><img src="img14.png">
+        <div>
+            <button onclick="s(-1)">←- Prev</button><button onclick="s(1)">Next -→</button>
+        </div>
+    </div>
+    <div class="main" id="7">
+        <h2>Threats</h2>
+        <p>
+            Each year, the level of deforestation of the Amazon has been increasing. Trees are being cut for their wood and to make space for farmland
+            and urban development. The Amazon Rainforest's wide diversity of species are being driven to extinction. To put the loss of biodiversity
+            into persective, one tree in the Amazon contains more ant species than some countries, and that is <em>only</em> the ants. Deforestation
+            is also reducing the amount of carbon-dioxide absorbing tree to help combat climate change. The Amazon is also affected by global warming,
+            with ever-larger forest-fires ripping through the rainforest, releasing most of it's victims stored carbon back into the atmosphere as 
+            more CO<sub>2</sub>.
+        </p>
+        <img src="img15.png"><img src="img16.png">
+        <div>
+            <button onclick="s(-1)">←- Prev</button><button onclick="s(1)">Next -→</button>
+        </div>
+    </div>
+    <div class="main" id="8">
+        <h2>Take quiz?</h2>
+        <div>
+            <button onclick="s(-1)">←- No, go back</button><button onclick="s(1)">Yes, proceed -→</button>
+        </div>
+    </div>
+    <div class="main" id="9">
+        <h2>Quiz Time!</h2>
+        <p class="p" style="color:rgb(124, 124, 175);font-size: 1.2em;width: 80%;margin-left: 10%;text-align: center;">   
+            <h3>Q1. How many of Earth's plant and animal species can be found in the Amazon?</h3>
+            <input type="radio" name="q1" value=0><label>All</label><br>
+            <input type="radio" name="q1" value=0><label>~50%</label><br>
+            <input type="radio" name="q1" value=1><label>~10%</label><br>
+            <input type="radio" name="q1" value=0><label>~2%</label><br>
+            <h3>Q2. What are the main threats to the Amazon Rainforet?</h3>
+            <input type="radio" name="q2" value=0><label>Floods and droughts</label><br>
+            <input type="radio" name="q2" value=1><label>Deforestation and fires</label><br>
+            <input type="radio" name="q2" value=0><label>Fires and droughts</label><br>
+            <input type="radio" name="q2" value=0><label>Floods and deforetation</label><br>
+            <h3>Q3. Which animal developed agriculture first?</h3>
+            <input type="radio" name="q3" value=0><label>Humans</label><br>
+            <input type="radio" name="q3" value=0><label>Dolphins</label><br>
+            <input type="radio" name="q3" value=0><label>Cats</label><br>
+            <input type="radio" name="q3" value=1><label>Leafcutter ants</label><br>
+            <h3>Q4. The wood from which tree is used by locals to make canoes?</h3>
+            <input type="radio" name="q4" value=1><label>Kapok Tree</label><br>
+            <input type="radio" name="q4" value=0><label>Rubber Tree</label><br>
+            <input type="radio" name="q4" value=0><label>Palm Tree</label><br>
+            <input type="radio" name="q4" value=0><label>Oak Tree</label><br>
+            <h3>Q5. How much area does the Amazon cover?</h3>
+            <input type="radio" name="q5" value=0><label>10 km<sup>2</sup></label><br>
+            <input type="radio" name="q5" value=1><label>6.7 million km<sup>2</sup></label><br>
+            <input type="radio" name="q5" value=0><label>2 million km<sup>2</sup></label><br>
+            <input type="radio" name="q5" value=0><label>6.3 thousand km<sup>2</sup></label><br>
+        </p>
+        <div>
+            <button onclick="s(1)">Check score -→</button>
+        </div>
+    </div>
+    <div class="main" id="10">
+        <h2>Results</h2>
+        <p class="p" style="color:rgb(124, 124, 175);font-size: 1.2em;width: 80%;margin-left: 10%;">   
+            <h1 id="s"></h1>
+        </p>
+        <div>
+            <button onclick="s(-1)">←- Redo Quiz</button><button onclick="s(-9)">←- Back to Start</button>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    var n=8
+    $(".main").css("height", $(window).height()*0.6)
+    $("img").css("height", $(window).height()*0.3)
+    $("#3 img").css("height", $(window).height()*0.2)
+    $("#5 img").css("height", $(window).height()*0.15)
+    $("#6 img").css("height", $(window).height()*0.25)
+    $("#7 img").css("height", $(window).height()*0.2)
+    $("#9").css("height", $(window).height()*1.4)
+    function s(ni){
+        n+=ni;
+        $(".main").fadeOut(1000)
+        setTimeout(function(){$("#"+n).slideDown(1000)}, 1000)
+        if(n==10){
+            $("#s").text(Number($("input[name='q1']:checked").val())+Number($("input[name='q2']:checked").val())+Number($("input[name='q3']:checked").val())+Number($("input[name='q4']:checked").val())+Number($("input[name='q5']:checked").val())+"/5")
+        }
+    }
+    s(1);
+</script>
+</html>
